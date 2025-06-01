@@ -23,6 +23,7 @@ def preprocess(text):
         "zero-shot-classification",
         model="joeddav/xlm-roberta-large-xnli",
         framework="pt"  
+        use_fast=False
         )
     
     pred_labels = {}

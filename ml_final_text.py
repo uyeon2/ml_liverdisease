@@ -22,7 +22,7 @@ def preprocess(text):
         _zero_shot_pipeline=pipeline(
         "zero-shot-classification",
         model="joeddav/xlm-roberta-large-xnli",
-        framework="pt"  
+        framework="pt",  
         use_fast=False
         )
     
